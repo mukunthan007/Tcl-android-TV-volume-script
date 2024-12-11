@@ -9,7 +9,7 @@ Download these files on PC or mobile.
 
 Download the latest Termux APK with a name ending in +github-debug_universal.apk on Github - [Termux Github Release](https://github.com/termux/termux-app/releases) 
 
-Download the latest Termux boot APK on Fdroid - [Termux Boot Fdroid](https://f-droid.org/en/packages/com.termux.boot/)
+Download the latest Termux boot APK on github - [Termux Boot Github Release](https://github.com/termux/termux-boot/releases)
 
 ## Installation
 Send these APK's files to TV through Send Files to TV app or any other apps.
@@ -25,7 +25,8 @@ Open Termux app then and put this commands on TV
 ```bash
 pkg update
 pkg upgrade
-mkidr ~/.termux/boot/  #do this after installing termux boot app on your TV
+mkdir ~/.termux/boot/  #do this after installing termux boot app on your TV
+pkg install android-tools
 pkg install openssh
 sshd
 ```
