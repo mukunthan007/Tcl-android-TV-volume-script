@@ -51,10 +51,11 @@ Do the below procedure for mobile setup also.
 ```bash
 ssh 192.168.0.xxx -p 8022 # Your TV IP address
 cd .termux/boot/ # go to boot folder to create a startup script
+nano start-sshd.sh
 nano volume-bash.sh
 ```
 
-Paste the contents from volume-bash.sh on this repo to the nano editor. Ctrl + X -> Y -> Enter to save the file.
+Paste the contents from volume-bash.sh and start-sshd.sh on this repo to the nano editor. Ctrl + X -> Y -> Enter to save the file.
 
 
 Restart the Android TV to reflect the changes.
