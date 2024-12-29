@@ -28,6 +28,7 @@ pkg upgrade
 mkdir ~/.termux/boot/  #do this after installing termux boot app on your TV
 pkg install android-tools
 pkg install openssh
+passwd                 #set password for user
 sshd
 ```
 sshd command will create a openssh server to connect from your local devices
