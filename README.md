@@ -11,6 +11,9 @@ Download the latest Termux APK with a name ending in +github-debug_universal.apk
 
 Download the latest Termux boot APK on github - [Termux Boot Github Release](https://github.com/termux/termux-boot/releases)
 
+## Video Instructions For Setup
+[link](https://youtu.be/ZvFDVr7B_94)
+
 ## Installation
 Send these APK's files to TV through Send Files to TV app or any other apps.
 
@@ -18,6 +21,7 @@ Install both the APK's files and disable both apps energy optimisation by:
 
 Setting -> Apps -> Special App Access - > Energy Optimisation -> turn off  both app.
 
+Setting -> Apps -> Special App Access - > Display Over Other Apps -> turn on both apps.
 
 ## Usage
 
@@ -54,6 +58,8 @@ ssh 192.168.0.xxx -p 8022 # Your TV IP address
 cd .termux/boot/ # go to boot folder to create a startup script
 nano start-sshd.sh
 nano volume-bash.sh
+chmod +x start-sshd.sh
+chmod +x volume-bash.sh
 ```
 
 Paste the contents from volume-bash.sh and start-sshd.sh on this repo to the nano editor. Ctrl + X -> Y -> Enter to save the file.
